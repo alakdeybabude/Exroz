@@ -1,0 +1,509 @@
+/* ====================================================
+  Template Name: WordPress Fair HTML5 landing page
+  Template URI: http://dreamroadtech.com/templates/morix-preview/
+  Description: WordPress Fair HTML5 landing page
+  Author: Abc It Park
+  Author URI: http://www.abcitpark.com
+  version: 1.0
+==================================================== */
+
+/* CSS Index
+------------------------------------
+
+01. Template Default CSS 
+02. header css
+
+
+
+
+
+
+*/
+
+/* ====================================================
+  Google Fonts
+==================================================== */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.btn:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
+
+p {
+  line-height: 32px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+li a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+
+
+
+
+/* ====================================================
+   Author's custom styles
+   ==================================================== */
+
+/* ..................................
+ 02. header css 
+.................................. */
+.navbar-brand {
+  color: #fff;
+  font-size: 32px;
+  background: #f7a30a;
+  padding: 15px 30px;
+  font-weight: 700;
+}
+.navbar span.call {
+  font-size: 17px;
+  margin-left: 12px;
+  margin-top: 5px;
+  color: #fff
+  
+}
+.navbar-nav li a{
+  color: #fff;
+}
+
+
+.bg{
+  background-color: transparent;
+  transition: 0.6s ease;
+  
+}
+.bg.scrolled{
+  background-color: #021D38;
+}
+
+
+
+
+
+
+
+/* ..................................
+ 01. home CSS 
+.................................. */
+.bg-home-img{
+  background-image: linear-gradient(rgba(2,29,56,0.7),rgba(0,0,0,0.9)),url("../img/bg-intro.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+.home-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  padding-bottom: 60px;
+}
+.home-content h5{
+  font-weight: 600;
+  font-family: Poppins;
+  font-size: 26px;
+  line-height: 54px;
+  padding-top: 30px;
+  color: #f7a30a;
+  text-transform: capitalize;
+}
+.home-content h2{
+  font-weight: 700;
+  font-family: Poppins;
+  font-size: 62px;
+  line-height: 54px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.home-content p{
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 35px;
+}
+.button-4{
+  width:180px;
+  height:50px;
+  border:2px solid none;
+  background-color: #f7a30a;
+  border-radius: 5px;
+  text-align:center;
+  cursor:pointer;
+  position:relative;
+  box-sizing:border-box;
+  overflow:hidden;
+  margin:0 0 40px 50px;
+  display: inline-block;
+}
+.button-4 a{
+  font-size:16px;
+  color:#fff;
+  text-decoration:none;
+  line-height:50px;
+  transition:all .5s ease;
+  z-index:2;
+  position:relative;
+}
+.button-2{
+  background: transparent;
+  border: 2px solid #f7a30a
+}
+.eff-4{
+  width:181px;
+  height:50px;
+  left:-181px;
+  background:#fff;
+  position:absolute;
+  transition:all .5s ease;
+  z-index:1;
+}
+.button-4:hover .eff-4{
+  left:0;
+}
+.button-4:hover a{
+  color:#333;
+}
+.button-2:hover {
+ border: 2px solid;
+}
+
+
+/* ..................................
+ 02. about CSS 
+.................................. */
+.about{
+  position: relative;
+}
+
+.section-padding {
+  padding: 100px 0 120px;
+}
+.bg-color{
+  background: #f7a30a;
+  height: 244px;
+}
+.row-about{
+  background: #fff;
+  top: 120px;
+  margin-top: px;
+  position: relative;
+  border-radius: 0 0 5px 5px ;
+}
+.content{
+  position: relative;
+}
+.content h3{
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 20px;
+
+}
+.content h3 span{
+  color: #f7a30a;
+}
+.content h6{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 48px;
+
+}
+.content ul li{
+  margin-bottom: 10px;
+
+}
+.content ul li i{
+  margin-right: 10px;
+
+}
+.content ul{
+  display: flex;
+  flex-direction: column;
+}
+.about .content{
+  padding: 0 20px 20px;
+}
+/*.....about section end.....*/
+
+/* ..................................
+ 03. service CSS 
+.................................. */
+.bg-grey {
+  background: #f5f3fd;
+}
+.section-tittle{
+  text-align: center;
+  margin-bottom: 60px;
+}
+.section-tittle h3{
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+}
+.section-tittle span{
+  color: #f7a30a;
+}
+.section-tittle p {
+  width: 60%;
+  margin: auto;
+  line-height: 30px;
+  font-size: 15px;
+}
+.service-content{
+  text-align: center;
+  background: #fff;
+  padding: 30px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  box-shadow: 0 12px 30px -15px rgba(0, 0, 0, 0.2);
+}
+  
+.service-content .fa{
+  font-size: 48px;
+  color: #f7a30a;
+}
+.service-content h5{
+  margin: 25px 0 14px;
+}
+.section-padding-top{
+  padding-top: 100px
+}
+.section-padding-bottom{
+  padding-bottom: 100px;
+}
+.content-center{
+  background: #f7a30a;
+  color: #fff;
+}
+.content-center .fa{
+  color: #fff;
+  
+}
+
+/* ..................................
+ 04. our work CSS 
+.................................. */
+.bg-black{
+  background: #111111;
+}
+.work .section-tittle{
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+.work .img-item .caption {
+  position: absolute;
+  background-color: rgba(255, 169, 11, 0.9);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: all .3s ease;
+  padding-top: 140px;
+  text-align: center;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+.work .caption h6 {
+  color: #fff;
+}
+
+.work .caption p {
+  color: #fff;
+}
+
+.work .caption p:hover {
+  color: #fff;
+}
+
+.work a:hover .caption {
+  opacity: 1;
+  width: 100%;
+  transition: all .3s ease;
+}
+.work  img {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+/*our work section end*/
+/* ..................................
+ 04. Features service CSS 
+.................................. */
+.feature-text h5{
+  font-size: 20px;
+  font-weight: 500;
+}
+.feature-text p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.features .icon{
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  float: left;
+  background: #021d38;
+  border-radius: 5px;
+  line-height: 65px;
+  margin-right: 30px;
+}
+.icon .fa{
+  font-size: 30px;
+  color: #f7a30a;
+ 
+}
+.feature-text{
+  overflow: hidden;
+}
+
+
+
+
+/* Features section end*/
+/* ..................................
+ 05. blog section CSS 
+.................................. */
+.latest-blog {
+  border-radius: 6px;
+  box-shadow: 0 12px 30px -15px rgba(0, 0, 0, 0.2);
+  background: #fff;
+}
+.bg-blog{
+  background: #F5F3FD;
+}
+/*blog section end*/
+
+/* ..................................
+ 06. footer CSS 
+.................................. */
+.footer-padding{
+  padding: 125px 0;
+  border-bottom: 1px solid #253d55;
+}
+.footer-text h6 {
+  color: #f7a30a;
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  top: -8px;
+}
+.footer-bg{
+  background: #02203B;
+}
+.footer-text p{
+  color: #bbb;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.footer-text h5 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.footer-text ul {
+  display: flex;
+  flex-direction: column;
+  
+}
+.footer-text ul li{
+  margin-bottom: 20px;
+}
+.footer-text ul li a {
+  color: #bbb;
+}
+.footer-text ul li i {
+  color: #bbb;
+  font-size: 20px;
+}
+.footer-text ul li  {
+  color: #bbb;
+}
+
+.footer-text ul li {
+  color: #bbb;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-last i{
+  margin-right: 25px;
+  float: left;
+  font-size: 20px;
+  width:10%
+  
+}
+.footer-last span {
+  width: 90%;
+  text-align: left;
+}
+.footer-bottom {
+  background: #021d38;
+  text-align: center;
+  color: #eee;
+  padding: 20px 0 8px;
+}
